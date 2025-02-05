@@ -34,6 +34,15 @@ export default defineConfig({
       },
     ],
   },
-  server: { port: PORT, host: true },
+  server: {
+    host: true,
+    port: 3039,
+    headers: {
+      "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+      "Cross-Origin-Embedder-Policy": "require-corp"
+    }
+  },
   preview: { port: PORT, host: true },
+  
+  
 });

@@ -9,7 +9,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Drawer, { drawerClasses } from '@mui/material/Drawer';
 
 import { usePathname } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
+import { RouterLink } from 'src/layouts/components';
 
 import { varAlpha } from 'src/theme/styles';
 
